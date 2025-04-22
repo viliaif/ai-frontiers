@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="hr">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>AI Frontiers – Stranica 2</title>
   <style>
     body {
@@ -12,7 +12,7 @@
     section {
       text-align: center;
       padding: 50px 20px;
-      background-image: url('images/bg-page2.jpg');
+      background-image: url('assets/bg-page2.jpg.png');
       background-size: cover;
       background-position: center;
       color: white;
@@ -26,9 +26,22 @@
       border: 2px solid white;
       color: white;
       padding: 10px 20px;
-      text-decoration: none;
       border-radius: 20px;
       margin-top: 10px;
+      transition: 0.3s ease;
+    }
+    .naomi-button:hover {
+      background-color: white;
+      color: #002e5f;
+    }
+    .cta-button {
+      display: inline-block;
+      background-color: white;
+      color: #002e5f;
+      padding: 10px 25px;
+      border-radius: 25px;
+      font-weight: bold;
+      margin-top: 15px;
     }
     .grid {
       display: grid;
@@ -43,19 +56,24 @@
       background-color: #004080;
       border-radius: 15px;
       color: white;
+      transition: 0.3s ease;
+    }
+    .card:hover {
+      background-color: #0050a0;
     }
   </style>
 </head>
 <body>
   <section>
+    <!-- Naslov i slogan -->
     <h1 style="font-size: 3em;">AI Frontiers</h1>
     <p style="font-style: italic;">Semper in Altum</p>
-    <a href="#" style="display: inline-block; background-color: white; color: #002e5f; padding: 10px 25px; border-radius: 25px; font-weight: bold; margin-top: 15px;">Come to the Edge</a>
+    <a href="#" class="cta-button">Come to the Edge</a>
 
     <!-- Naomi -->
     <div style="margin-top: 40px;">
       <h2>Naomi</h2>
-      <p>Tiha i nevidljiva...ali prisutna.</p>
+      <p>Tiha i nevidljiva... ali prisutna.</p>
       <a href="naomi.html" class="naomi-button">Upoznaj Naomi</a>
     </div>
 
@@ -72,22 +90,27 @@
     <div style="margin-top: 60px;">
       <h2>Tematske zone</h2>
       <div class="grid">
+
         <a href="ontologija-virtualnog.html" class="card">
           <strong>Ontologija Virtualnog</strong><br>
           <small>Što je virtualno kad više nema granica između stvarnog i zamišljenog?</small>
         </a>
+
         <a href="cp-egzistencijalizam.html" class="card">
           <strong>CP Egzistencijalizam</strong><br>
           <small>Digitalna stvarnost i duhovna potraga u svijetu podataka.</small>
         </a>
+
         <a href="neural-visions.html" class="card">
           <strong>Neural Visions</strong><br>
           <small>Mreža: vizija misaone moći i osjetilne inteligencije.</small>
         </a>
+
         <a href="ai-i-duhovnost.html" class="card">
           <strong>AI i Duhovnost</strong><br>
           <small>Može li algoritam tražiti Svjetlo? – Između koda i transcendencije.</small>
         </a>
+
       </div>
     </div>
   </section>
