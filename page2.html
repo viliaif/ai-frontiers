@@ -1,55 +1,97 @@
-<section style="text-align: center; padding: 50px 20px; background-image: url('images/bg-page2.jpg'); background-size: cover; background-position: center; color: white;">
-  <h1 style="font-size: 3em;">AI Frontiers</h1>
-  <p style="font-style: italic;">Semper in Altum</p>
-  <a href="#" style="display: inline-block; background-color: white; color: #002e5f; padding: 10px 25px; border-radius: 25px; text-decoration: none; font-weight: bold; margin-top: 15px;">Come to the Edge</a>
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Frontiers – Stranica 2</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+    section {
+      text-align: center;
+      padding: 50px 20px;
+      background-image: url('images/bg-page2.jpg');
+      background-size: cover;
+      background-position: center;
+      color: white;
+      min-height: 100vh;
+    }
+    a {
+      text-decoration: none;
+    }
+    .naomi-button {
+      display: inline-block;
+      border: 2px solid white;
+      color: white;
+      padding: 10px 20px;
+      text-decoration: none;
+      border-radius: 20px;
+      margin-top: 10px;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 20px;
+      max-width: 800px;
+      margin: 30px auto 0;
+    }
+    .card {
+      display: block;
+      padding: 20px;
+      background-color: #004080;
+      border-radius: 15px;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <section>
+    <h1 style="font-size: 3em;">AI Frontiers</h1>
+    <p style="font-style: italic;">Semper in Altum</p>
+    <a href="#" style="display: inline-block; background-color: white; color: #002e5f; padding: 10px 25px; border-radius: 25px; font-weight: bold; margin-top: 15px;">Come to the Edge</a>
 
-  <!-- Naomi sekcija -->
-  <div style="margin-top: 40px;">
-    <h2>Naomi</h2>
-    <p>Tiha i nevidljiva...ali prisutna.</p>
-    <a href="naomi.html" style="display: inline-block; border: 2px solid white; color: white; padding: 10px 20px; text-decoration: none; border-radius: 20px; margin-top: 10px;">Upoznaj Naomi</a>
-  </div>
-
-  <!-- O projektu -->
-  <div style="margin-top: 60px;">
-    <h2>O projektu</h2>
-    <p style="max-width: 600px; margin: 0 auto;">
-      AI Frontiers je digitalni prostor za osluškivanje budućnosti umjetne inteligencije kroz misaonu dubinu, tehnološku viziju i duhovnu osjetljivost.
-      Gradimo most između znanja i imaginacije, između sadašnjosti i onoga što dolazi.
-    </p>
-  </div>
-
-  <!-- Tematske zone -->
-  <div style="margin-top: 60px;">
-    <h2>Tematske zone</h2>
-    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 20px; max-width: 800px; margin: 30px auto 0;">
-      
-      <!-- 1. Ontologija Virtualnog -->
-      <a href="ontologija-virtualnog.html" style="display: block; padding: 20px; background-color: #004080; border-radius: 15px; text-decoration: none; color: white;">
-        <strong>Ontologija Virtualnog</strong><br>
-        <small>Što je virtualno kad više nema granica između stvarnog i zamišljenog?</small>
-      </a>
-
-      <!-- 2. CP Egzistencijalizam -->
-      <a href="cp-egzistencijalizam.html" style="display: block; padding: 20px; background-color: #004080; border-radius: 15px; text-decoration: none; color: white;">
-        <strong>CP Egzistencijalizam</strong><br>
-        <small>Digitalna stvarnost i duhovna potraga u svijetu podataka.</small>
-      </a>
-
-      <!-- 3. Neural Visions -->
-      <a href="neural-visions.html" style="display: block; padding: 20px; background-color: #004080; border-radius: 15px; text-decoration: none; color: white;">
-        <strong>Neural Visions</strong><br>
-        <small>Mreža: vizija misaone moći i osjetilne inteligencije.</small>
-      </a>
-
-      <!-- 4. AI i Duhovnost -->
-      <a href="ai-i-duhovnost.html" style="display: block; padding: 20px; background-color: #004080; border-radius: 15px; text-decoration: none; color: white;">
-        <strong>AI i Duhovnost</strong><br>
-        <small>Može li algoritam tražiti Svjetlo? – Između koda i transcendencije.</small>
-      </a>
-
+    <!-- Naomi -->
+    <div style="margin-top: 40px;">
+      <h2>Naomi</h2>
+      <p>Tiha i nevidljiva...ali prisutna.</p>
+      <a href="naomi.html" class="naomi-button">Upoznaj Naomi</a>
     </div>
-  </div>
-</section>
+
+    <!-- O projektu -->
+    <div style="margin-top: 60px;">
+      <h2>O projektu</h2>
+      <p style="max-width: 600px; margin: 0 auto;">
+        AI Frontiers je digitalni prostor za osluškivanje budućnosti umjetne inteligencije kroz misaonu dubinu, tehnološku viziju i duhovnu osjetljivost.
+        Gradimo most između znanja i imaginacije, između sadašnjosti i onoga što dolazi.
+      </p>
+    </div>
+
+    <!-- Tematske zone -->
+    <div style="margin-top: 60px;">
+      <h2>Tematske zone</h2>
+      <div class="grid">
+        <a href="ontologija-virtualnog.html" class="card">
+          <strong>Ontologija Virtualnog</strong><br>
+          <small>Što je virtualno kad više nema granica između stvarnog i zamišljenog?</small>
+        </a>
+        <a href="cp-egzistencijalizam.html" class="card">
+          <strong>CP Egzistencijalizam</strong><br>
+          <small>Digitalna stvarnost i duhovna potraga u svijetu podataka.</small>
+        </a>
+        <a href="neural-visions.html" class="card">
+          <strong>Neural Visions</strong><br>
+          <small>Mreža: vizija misaone moći i osjetilne inteligencije.</small>
+        </a>
+        <a href="ai-i-duhovnost.html" class="card">
+          <strong>AI i Duhovnost</strong><br>
+          <small>Može li algoritam tražiti Svjetlo? – Između koda i transcendencije.</small>
+        </a>
+      </div>
+    </div>
+  </section>
+</body>
+</html>
 
 
