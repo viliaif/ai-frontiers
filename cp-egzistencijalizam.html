@@ -4,23 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CP Egzistencijalizam</title>
-    
     <style>
-        body {
+        html, body {
             margin: 0;
+            padding: 0;
+            height: 100%;
+        }
+
+        body {
+            overflow-x: hidden;
             font-family: 'Georgia', serif;
         }
 
         .hero-section {
             position: relative;
             width: 100%;
-            max-height: 600px;
+            height: 110vh;
             overflow: hidden;
         }
 
         .hero-image {
             width: 100%;
-            height: auto;
+            height: 110vh;
             display: block;
             object-fit: cover;
         }
@@ -31,40 +36,67 @@
             left: 50%;
             transform: translate(-50%, -50%);
             color: white;
-            font-size: 3rem;
+            font-size: 2.2rem;
             font-weight: bold;
             text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
             text-align: center;
             padding: 0 20px;
+            z-index: 2;
         }
 
-        .content-section {
-            padding: 2rem;
+        .bottom-text {
+            position: absolute;
+            bottom: 2rem;
+            left: 50%;
+            transform: translateX(-50%);
             font-size: 1.2rem;
+            color: white;
+            z-index: 2;
+        }
+
+        .language-switch {
+            position: absolute;
+            top: 1rem;
+            right: 1rem;
+            z-index: 3;
+            font-size: 1rem;
+            color: white;
+            background-color: rgba(0,0,0,0.5);
+            padding: 0.3rem 0.6rem;
+            border-radius: 5px;
+            text-decoration: none;
         }
 
         footer {
             text-align: center;
             padding: 1rem;
             font-size: 0.9rem;
-            color: #555;
+            color: #ccc;
         }
     </style>
 </head>
 <body>
+
     <section class="hero-section">
-        <img src="assets/CPE.jpg" alt="CP Egzistencijalizam" class="hero-image">
+        <img src="assets/CPE.jpg" alt="CP Egzistencijalizam" class="hero-image" />
+
+        <!-- Language switch -->
+        <a href="cp-egzistencijalizam-en.html" class="language-switch">EN</a>
+
+        <!-- Central title -->
         <div class="hero-overlay">
             <h1>CP Egzistencijalizam</h1>
         </div>
-    </section>
 
-    <section class="content-section">
-        <p>Uskoro sadržaj...</p>
+        <!-- Bottom text -->
+        <div class="bottom-text">
+            <p>Uskoro sadržaj...</p>
+        </div>
     </section>
 
     <footer>
-        <p>© 2025 BB Svijet</p>
+        © 2025 BB World
     </footer>
+
 </body>
 </html>
