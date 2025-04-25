@@ -24,10 +24,19 @@
         }
 
         .hero-image {
-            width: 100%;
-            height: 110vh;
-            display: block;
-            object-fit: cover;
+    width: 100%;
+    height: 110vh;
+    display: block;
+    object-fit: cover;
+    object-position: center center; /* desktop */
+}
+
+@media screen and (max-width: 768px) {
+    .hero-image {
+        object-position: left center; /* mobile fokus na djevojku */
+    }
+}
+
         }
 
         .hero-overlay {
