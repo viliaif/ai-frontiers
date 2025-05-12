@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+  <meta charset="UTF-8">
+  <title>Ključni dokumenti</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-image: url('/assets/AIDhr.png');
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+      color: white;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    h1 {
+      margin-top: 60px;
+      font-size: 2.5rem;
+      text-shadow: 1px 1px 4px rgba(0,0,0,0.6);
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 20px;
+      max-width: 1200px;
+      margin: 50px auto;
+      padding: 20px;
+    }
+
+    .card {
+      background: rgba(0, 0, 0, 0.6);
+      border-radius: 12px;
+      padding: 20px;
+      text-align: center;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+      transition: transform 0.2s ease;
+      cursor: pointer;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+      background: rgba(0, 0, 0, 0.75);
+    }
+
+    .card h3 {
+      margin-bottom: 10px;
+      font-size: 1.1rem;
+    }
+
+    @media (max-width: 768px) {
+      .grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+
+    @media (max-width: 480px) {
+      .grid {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Ključni dokumenti</h1>
+
+  <div class="grid">
+    <!-- Placeholder kartice -->
+    <div class="card"><h3>OpenAI Mission Statement</h3></div>
+    <div class="card"><h3>DeepMind: Sparks of AGI</h3></div>
+    <div class="card"><h3>EU AI Act</h3></div>
+    <div class="card"><h3>OECD AI Principles</h3></div>
+
+    <div class="card"><h3>Vatican-Rome Call for Ethics</h3></div>
+    <div class="card"><h3><strong>UN AI Resolution</strong></h3></div>
+    <div class="card"><h3>UNESCO Ethics Recommendation</h3></div>
+    <div class="card"><h3>Nova et Antiqua</h3></div>
+
+    <div class="card"><h3>NSCAI Final Report</h3></div>
+    <div class="card"><h3>GPAI Strategic Vision</h3></div>
+    <div class="card"><h3>Floridi – AI4People</h3></div>
+    <div class="card"><h3>Statement of Geoffrey Hinton</h3></div>
+  </div>
+
+</body>
+</html>
