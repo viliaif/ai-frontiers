@@ -46,7 +46,40 @@
       transform: translateY(-5px);
       background: rgba(0, 0, 0, 0.75);
     }
+.document-card {
+  background: rgba(0, 0, 0, 0.6);
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  transition: transform 0.2s ease;
+  max-width: 100%;
+}
 
+.document-card:hover {
+  transform: translateY(-5px);
+  background: rgba(0, 0, 0, 0.75);
+}
+
+.doc-link {
+  display: inline-block;
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 0.5rem 0.8rem;
+  border-radius: 8px;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  transition: background-color 0.3s ease;
+}
+
+.doc-link:hover {
+  background-color: rgba(255, 255, 255, 0.25);
+}
+
+.description {
+  font-size: 0.95rem;
+  line-height: 1.4;
+}
     .card h3 {
       margin-bottom: 10px;
       font-size: 1.1rem;
@@ -70,21 +103,74 @@
   <h1>Key Documents</h1>
 
   <div class="grid">
-    <div class="card"><h3>OpenAI Mission Statement</h3></div>
-    <div class="card"><h3>DeepMind: Sparks of AGI</h3></div>
-    <div class="card"><h3>EU AI Act</h3></div>
-    <div class="card"><h3>OECD AI Principles</h3></div>
 
-    <div class="card"><h3>Vatican-Rome Call for Ethics</h3></div>
-    <div class="card"><h3><strong>UN AI Resolution</strong></h3></div>
-    <div class="card"><h3>UNESCO Ethics Recommendation</h3></div>
-    <div class="card"><h3>Nova et Antiqua</h3></div>
-
-    <div class="card"><h3>NSCAI Final Report</h3></div>
-    <div class="card"><h3>GPAI Strategic Vision</h3></div>
-    <div class="card"><h3>Floridi – AI4People</h3></div>
-    <div class="card"><h3>Statement of Geoffrey Hinton</h3></div>
+  <div class="document-card">
+    <a href="https://www.romecall.org/" target="_blank" class="doc-link">Rome Call for AI Ethics (2020)</a>
+    <p class="description">A Vatican-signed document promoting the development of AI in line with ethical principles such as transparency, responsibility, and fairness.</p>
   </div>
+
+  <div class="document-card">
+    <a href="https://www.vatican.va/roman_curia/congregations/cfaith/documents/rc_ddf_doc_20250128_antiqua-et-nova_en.html" target="_blank" class="doc-link">Antiqua et nova (2025)</a>
+    <p class="description">Vatican document on the relationship between human and artificial intelligence, emphasizing dignity, autonomy, and spiritual anthropology.</p>
+  </div>
+
+  <div class="document-card">
+    <a href="https://ec.europa.eu/futurium/en/ai-alliance-consultation/guidelines" target="_blank" class="doc-link">Ethics Guidelines for Trustworthy AI (2019)</a>
+    <p class="description">EU guidelines defining trustworthy AI through seven principles including transparency, human oversight, and accountability.</p>
+  </div>
+
+  <div class="document-card">
+    <a href="https://unesdoc.unesco.org/ark:/48223/pf0000381137" target="_blank" class="doc-link">UNESCO Ethics Recommendation (2021)</a>
+    <p class="description">The first global normative framework promoting human rights, sustainable development, and ethics in AI governance.</p>
+  </div>
+
+  <div class="document-card">
+    <a href="https://legalinstruments.oecd.org/en/instruments/OECD-LEGAL-0449" target="_blank" class="doc-link">OECD AI Principles (2019)</a>
+    <p class="description">Principles that support robust, fair, and trustworthy AI, adopted by the G20 and many national governments.</p>
+  </div>
+
+  <div class="document-card">
+    <a href="https://openai.com/about" target="_blank" class="doc-link">OpenAI Mission Statement (2023)</a>
+    <p class="description">OpenAI's mission is to develop AGI to benefit all of humanity, with a focus on safety and cooperative alignment.</p>
+  </div>
+
+  <div class="document-card">
+    <a href="https://arxiv.org/abs/2303.12712" target="_blank" class="doc-link">DeepMind: Sparks of AGI (2023)</a>
+    <p class="description">A paper suggesting that LLMs are displaying early signs of general intelligence, sparking debate about AGI emergence.</p>
+  </div>
+
+  <div class="document-card">
+    <a href="https://artificialintelligenceact.eu/" target="_blank" class="doc-link">EU AI Act (2024)</a>
+    <p class="description">The first legal framework for AI in the EU, categorizing risks and establishing clear regulatory mechanisms.</p>
+  </div>
+
+  <div class="document-card">
+    <a href="https://press.un.org/en/2024/ga12585.doc.htm" target="_blank" class="doc-link">UN AI Resolution (2024)</a>
+    <p class="description">A UN resolution calling for global cooperation, ethical AI development, and protection of human rights in the context of AI.</p>
+  </div>
+
+  <div class="document-card">
+    <a href="https://www.nscai.gov/2021-final-report/" target="_blank" class="doc-link">NSCAI Final Report (2021)</a>
+    <p class="description">Report on AI and U.S. national security, focused on strategic superiority and defense technology leadership.</p>
+  </div>
+
+  <div class="document-card">
+    <a href="https://gpai.ai/projects/strategic-vision.pdf" target="_blank" class="doc-link">GPAI Strategic Vision (2020–23)</a>
+    <p class="description">A document outlining global AI cooperation among democratic nations, focusing on health, climate, and digital rights.</p>
+  </div>
+
+  <div class="document-card">
+    <a href="https://www.eismd.eu/wp-content/uploads/2018/11/AI4People_EthicalFramework_2018.pdf" target="_blank" class="doc-link">Floridi – AI4People (2018)</a>
+    <p class="description">An ethical framework for a “good AI society” based on five principles: beneficence, non-maleficence, autonomy, justice, and explicability.</p>
+  </div>
+
+  <div class="document-card">
+    <a href="https://www.nytimes.com/2023/05/01/technology/ai-google-geoffrey-hinton.html" target="_blank" class="doc-link">Statement of Geoffrey Hinton (2023)</a>
+    <p class="description">Hinton warns about AGI risks and the potential loss of human control over advanced AI systems – a moral signal from within the field.</p>
+  </div>
+
+</div>
+
 
 </body>
 </html>
