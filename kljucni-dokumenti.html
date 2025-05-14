@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="hr">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Ključni dokumenti</title>
   <style>
     body {
@@ -24,7 +24,7 @@
       text-shadow: 1px 1px 4px rgba(0,0,0,0.6);
     }
 
-    .grid {
+    .documents-grid {
       display: grid;
       grid-template-columns: repeat(4, 1fr);
       gap: 20px;
@@ -40,7 +40,6 @@
       padding: 20px;
       box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
       transition: transform 0.2s ease;
-      max-width: 100%;
     }
 
     .document-card:hover {
@@ -70,23 +69,40 @@
     }
 
     @media (max-width: 1024px) {
-      .grid {
+      .documents-grid {
         grid-template-columns: repeat(2, 1fr);
       }
     }
 
     @media (max-width: 768px) {
-      .grid {
+      .documents-grid {
         grid-template-columns: 1fr;
+        padding: 20px;
       }
+    }
+
+    .language-switch {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+    }
+
+    .language-switch a {
+      color: white;
+      text-decoration: underline;
+      font-size: 14px;
     }
   </style>
 </head>
 <body>
 
+  <div class="language-switch">
+    <a href="key-documents.html">EN</a>
+  </div>
+
   <h1>Ključni dokumenti</h1>
 
-  <div class="grid">
+  <div class="documents-grid">
 
     <div class="document-card">
       <a href="https://www.romecall.org/" target="_blank" class="doc-link">Rome Call for AI Ethics (2020)</a>
@@ -157,6 +173,3 @@
 
 </body>
 </html>
-
-
-
