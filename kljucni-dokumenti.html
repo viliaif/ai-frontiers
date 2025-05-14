@@ -5,114 +5,102 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Ključni dokumenti</title>
   <style>
-    body, html {
-      margin: 0;
-      padding: 0;
-      height: 100%;
-      font-family: Arial, sans-serif;
-      background: linear-gradient(to bottom, #0057b7, #3f87a6);
-      background-size: cover;
-      background-position: center;
-      color: white;
-    }
-
-    .hero {
-      text-align: center;
-      padding: 40px 20px 10px 20px;
-    }
-
-    .hero h1 {
-      font-size: 2.8em;
-      margin-bottom: 10px;
-    }
-
-    .documents-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 20px;
-  padding: 30px;
-    }
-
-    .document {
-      background-color: rgba(0, 48, 96, 0.8);
-      color: white;
-      padding: 20px;
-      border-radius: 12px;
-      width: 280px;
-      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
-      transition: transform 0.2s ease;
-    }
-
-    .document:hover {
-      transform: scale(1.03);
-    }
-
-    .document a {
-      color: white;
-      font-weight: bold;
-      text-decoration: none;
-      display: block;
-      margin-bottom: 8px;
-    }
-
-    .document a:hover {
-      text-decoration: underline;
-    }
-
-    .description {
-      font-size: 0.95em;
-      line-height: 1.4;
-    }
-
-    .language-switch {
-      position: absolute;
-      top: 20px;
-      right: 20px;
-    }
-
-    .language-switch a {
-      color: white;
-      text-decoration: underline;
-      font-size: 14px;
-    }
-@media (max-width: 768px) {
-  .documents-grid {
-    grid-template-columns: 1fr;
-    padding: 16px;
-    gap: 16px;
+  body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #0057b7, #3f87a6);
+    background-size: cover;
+    background-position: center;
+    color: white;
   }
 
-  .document {
-    width: 100%;
-    padding: 14px;
-    font-size: 0.85em;
-  }
-
-  .document a {
-    font-size: 0.95em;
-  }
-
-  .description {
-    font-size: 0.82em;
+  .hero {
+    text-align: center;
+    padding: 40px 20px 10px 20px;
   }
 
   .hero h1 {
-    font-size: 1.5em;
+    font-size: 2.5em;
+    margin: 0;
   }
 
+  .language-switch {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+  }
+
+  .language-switch a {
+    color: white;
+    text-decoration: underline;
+    font-size: 14px;
   }
 
   .documents-grid {
-    padding: 16px 8px;
-    gap: 14px;
-    flex-direction: column;
-    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 30px;
   }
-}
 
+  .document {
+    background-color: rgba(0, 0, 0, 0.25);
+    border-radius: 12px;
+    padding: 16px 18px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
 
-}
-     </style>
+  .document a {
+    color: white;
+    font-weight: bold;
+    font-size: 1.05em;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 8px;
+  }
+
+  .document a:hover {
+    text-decoration: underline;
+  }
+
+  .description {
+    font-size: 0.95em;
+    line-height: 1.4;
+  }
+
+  @media (max-width: 1024px) {
+    .documents-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  @media (max-width: 768px) {
+    .documents-grid {
+      grid-template-columns: 1fr;
+      padding: 20px;
+      gap: 16px;
+    }
+
+    .hero h1 {
+      font-size: 1.8em;
+    }
+
+    .document {
+      padding: 14px 16px;
+    }
+
+    .document a {
+      font-size: 1em;
+    }
+
+    .description {
+      font-size: 0.88em;
+    }
+  }
+</style>
+
 </head>
 <body>
 
