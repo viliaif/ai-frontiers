@@ -2,160 +2,135 @@
 <html lang="hr">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Ključni dokumenti</title>
   <style>
-    body {
+    body, html {
       margin: 0;
-      font-family: 'Segoe UI', sans-serif;
-      background-image: url('/assets/AIDhr.png');
+      padding: 0;
+      height: 100%;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(to bottom, #0057b7, #3f87a6);
       background-size: cover;
       background-position: center;
-      background-attachment: fixed;
       color: white;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
     }
 
-    h1 {
-      margin-top: 60px;
-      font-size: 2.5rem;
-      text-shadow: 1px 1px 4px rgba(0,0,0,0.6);
-    }
-.doc-link {
-  display: inline-block;
-  background-color: rgba(255, 255, 255, 0.1);
-  padding: 0.5rem 0.8rem;
-  border-radius: 8px;
-  color: #ffffff;
-  text-decoration: none;
-  font-weight: bold;
-  margin-bottom: 0.5rem;
-  transition: background-color 0.3s ease;
-}
-.doc-link:hover {
-  background-color: rgba(255, 255, 255, 0.25);
-}
-
-    .grid {
-      display: grid;
-      grid-template-columns: repeat(4, 1fr);
-      gap: 20px;
-      max-width: 1200px;
-      margin: 50px auto;
-      padding: 20px;
-    }
-
-    .card {
-      background: rgba(0, 0, 0, 0.6);
-      border-radius: 12px;
-      padding: 20px;
+    .hero {
       text-align: center;
+      padding: 40px 20px 10px 20px;
+    }
+
+    .hero h1 {
+      font-size: 2.8em;
+      margin-bottom: 10px;
+    }
+
+    .hero p {
+      font-size: 1.2em;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    .documents-grid {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      padding: 30px;
+    }
+
+    .document {
+      background-color: rgba(0, 48, 96, 0.8);
+      color: white;
+      padding: 20px;
+      border-radius: 12px;
+      width: 280px;
       box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
       transition: transform 0.2s ease;
-      cursor: pointer;
     }
 
-    .card:hover {
-      transform: translateY(-5px);
-      background: rgba(0, 0, 0, 0.75);
+    .document:hover {
+      transform: scale(1.03);
     }
 
-    .card h3 {
-      margin-bottom: 10px;
-      font-size: 1.1rem;
+    .document h3 {
+      margin-top: 0;
+      font-size: 1.1em;
     }
 
-    @media (max-width: 768px) {
-      .grid {
-        grid-template-columns: repeat(2, 1fr);
-      }
+    /* Jezična oznaka */
+    .language-switch {
+      position: absolute;
+      top: 20px;
+      right: 20px;
     }
 
-    @media (max-width: 480px) {
-      .grid {
-        grid-template-columns: 1fr;
-      }
+    .language-switch a {
+      color: white;
+      text-decoration: underline;
+      font-size: 14px;
     }
   </style>
 </head>
 <body>
 
-  <h1>Ključni dokumenti</h1>
-
-  <div class="grid">
-    <!-- Placeholder kartice -->
-
- <div class="grid">
-
-  <div class="document-card">
-    <a href="https://www.romecall.org/" target="_blank" class="doc-link">Rome Call for AI Ethics (2020)</a>
-    <p class="description">Dokument potpisan u Vatikanu koji poziva na razvoj AI-ja u skladu s etičkim načelima poput transparentnosti, odgovornosti i pravednosti.</p>
+  <!-- HR/EN oznaka -->
+  <div class="language-switch">
+    <a href="key-documents.html">EN</a>
   </div>
 
-  <div class="document-card">
-    <a href="https://www.vatican.va/roman_curia/congregations/cfaith/documents/rc_ddf_doc_20250128_antiqua-et-nova_en.html" target="_blank" class="doc-link">Antiqua et nova (2025)</a>
-    <p class="description">Vatikanski dokument o odnosu ljudske i umjetne inteligencije, s naglaskom na dostojanstvo, autonomiju i duhovnu antropologiju.</p>
+  <div class="hero">
+    <h1>Ključni dokumenti</h1>
+    <p>Dokumenti su tragovi svijeta u mijeni, svjetionici za one koji žele razumjeti i stvarati budućnost.</p>
   </div>
 
-  <div class="document-card">
-    <a href="https://ec.europa.eu/futurium/en/ai-alliance-consultation/guidelines" target="_blank" class="doc-link">Ethics Guidelines for Trustworthy AI (2019)</a>
-    <p class="description">EU smjernice koje definiraju pouzdani AI kroz sedam načela, uključujući transparentnost, ljudski nadzor i odgovornost.</p>
+  <div class="documents-grid">
+    <div class="document">
+      <h3>Rome Call for AI Ethics (2020)</h3>
+      <p>Dokument potpisan od Vatikana koji poziva na razvoj AI-ja u skladu s etičkim načelima poput transparentnosti, odgovornosti i pravednosti.</p>
+    </div>
+
+    <div class="document">
+      <h3>Antiqua et nova (2025)</h3>
+      <p>Vatikanski dokument o odnosu ljudske i umjetne inteligencije, s naglaskom na dostojanstvo, autonomiju i duhovnu antropologiju.</p>
+    </div>
+
+    <div class="document">
+      <h3>Ethics Guidelines for Trustworthy AI (2019)</h3>
+      <p>EU smjernice koje definiraju pouzdani AI kroz sedam načela, uključujući transparentnost, ljudski nadzor i odgovornost.</p>
+    </div>
+
+    <div class="document">
+      <h3>UNESCO Ethics Recommendation (2021)</h3>
+      <p>Prvi globalni normativni okvir koji promovira ljudska prava, održivi razvoj i etiku u razvoju AI-ja.</p>
+    </div>
+
+    <div class="document">
+      <h3>OECD AI Principles (2019)</h3>
+      <p>Skup načela koja promiču razvoj slobodnog, odgovornog i održivog AI-ja u zemljama OECD-a i šire.</p>
+    </div>
+
+    <div class="document">
+      <h3>OpenAI Mission Statement (2023)</h3>
+      <p>Izjava misije OpenAI kojom se promiče razvoj AGI-ja na način koji koristi cijelom čovječanstvu.</p>
+    </div>
+
+    <div class="document">
+      <h3>DeepMind: Sparks of AGI (2023)</h3>
+      <p>Rad koji sugerira da LLM modeli pokazuju znakove napredne opće inteligencije, s velikim filozofskim i društvenim implikacijama.</p>
+    </div>
+
+    <div class="document">
+      <h3>EU AI Act (2024)</h3>
+      <p>Prvi zakonski okvir za AI koji kategorizira rizike i postavlja regulatorne zahtjeve za sigurnu primjenu u EU.</p>
+    </div>
   </div>
-
-  <div class="document-card">
-    <a href="https://unesdoc.unesco.org/ark:/48223/pf0000381137" target="_blank" class="doc-link">UNESCO Ethics Recommendation (2021)</a>
-    <p class="description">Prvi globalni normativni okvir koji promovira ljudska prava, održivi razvoj i etiku u razvoju AI-ja.</p>
-  </div>
-
-  <div class="document-card">
-    <a href="https://legalinstruments.oecd.org/en/instruments/OECD-LEGAL-0449" target="_blank" class="doc-link">OECD AI Principles (2019)</a>
-    <p class="description">Skup načela koja promiču razvoj pouzdanog, robusnog i pravednog AI-ja, usvojen i od strane G20 zemalja.</p>
-  </div>
-
-  <div class="document-card">
-    <a href="https://openai.com/about" target="_blank" class="doc-link">OpenAI Mission Statement (2023)</a>
-    <p class="description">Izjava misije OpenAI-ja: razvijati AGI za dobrobit cijelog čovječanstva, uz naglasak na sigurnost i suradnju.</p>
-  </div>
-
-  <div class="document-card">
-    <a href="https://arxiv.org/abs/2303.12712" target="_blank" class="doc-link">DeepMind: Sparks of AGI (2023)</a>
-    <p class="description">Rad koji sugerira da LLM-ovi pokazuju rane oblike opće inteligencije, otvarajući raspravu o AGI potencijalu.</p>
-  </div>
-
-  <div class="document-card">
-    <a href="https://artificialintelligenceact.eu/" target="_blank" class="doc-link">EU AI Act (2024)</a>
-    <p class="description">Prvi zakonski okvir za AI koji kategorizira rizike i postavlja regulatorne mehanizme unutar EU prostora.</p>
-  </div>
-
-  <div class="document-card">
-    <a href="https://press.un.org/en/2024/ga12585.doc.htm" target="_blank" class="doc-link">UN AI Resolution (2024)</a>
-    <p class="description">Rezolucija UN-a koja poziva na globalnu suradnju, etički razvoj i zaštitu ljudskih prava u AI kontekstu.</p>
-  </div>
-
-  <div class="document-card">
-    <a href="https://www.nscai.gov/2021-final-report/" target="_blank" class="doc-link">NSCAI Final Report (2021)</a>
-    <p class="description">Izvještaj o AI i nacionalnoj sigurnosti SAD-a, s fokusom na stratešku prednost i obrambene tehnologije.</p>
-  </div>
-
-  <div class="document-card">
-    <a href="https://gpai.ai/projects/strategic-vision.pdf" target="_blank" class="doc-link">GPAI Strategic Vision (2020–23)</a>
-    <p class="description">Dokument globalne AI suradnje među demokratskim državama s fokusom na zdravlje, klimu i digitalna prava.</p>
-  </div>
-
-  <div class="document-card">
-    <a href="https://www.eismd.eu/wp-content/uploads/2018/11/AI4People_EthicalFramework_2018.pdf" target="_blank" class="doc-link">Floridi – AI4People (2018)</a>
-    <p class="description">Etički okvir za "dobro AI društvo" temeljen na pet načela: dobrobit, neštetnost, autonomija, pravednost i objašnjivost.</p>
-  </div>
-
-  <div class="document-card">
-    <a href="https://www.nytimes.com/2023/05/01/technology/ai-google-geoffrey-hinton.html" target="_blank" class="doc-link">Statement of Geoffrey Hinton (2023)</a>
-    <p class="description">Hinton upozorava na opasnosti AGI-ja i gubitak ljudske kontrole nad tehnologijom – etički signal iznutra.</p>
-  </div>
-
-</div>
- 
-
 
 </body>
 </html>
+
+ 
+
+
+
