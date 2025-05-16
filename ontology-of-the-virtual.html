@@ -37,13 +37,22 @@
         left: 50%;
         transform: translate(-50%, -50%);
         color: white;
-        font-size: 3rem;
         font-weight: bold;
         text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
         text-align: center;
         padding: 0 20px;
         z-index: 2;
-        max-width: 90%;
+        max-width: 800px;
+    }
+
+    .hero-overlay h1 {
+        font-size: 2.2rem;
+        margin-bottom: 1rem;
+    }
+
+    .hero-overlay p {
+        font-size: 1.2rem;
+        line-height: 1.6;
     }
 
     .language-switch {
@@ -65,42 +74,43 @@
     }
 
     @media screen and (max-width: 768px) {
-     .hero-section {
-  height: auto;
-  min-height: 130vh;
-  padding-bottom: 4rem;
-  position: relative;
-}
+        .hero-section {
+            height: auto;
+            min-height: 130vh;
+            padding-bottom: 4rem;
+            position: relative;
+        }
 
-.hero-image {
-  height: auto;
-  min-height: 130vh;
-  object-fit: cover;
-}
+        .hero-image {
+            height: auto;
+            min-height: 130vh;
+            object-fit: cover;
+        }
 
-      .hero-overlay {
-        position: relative;
-        top: auto;
-        left: auto;
-        transform: none;
-        max-width: 90%;
-        margin: 0 auto;
-        padding: 2rem 1rem 0 1rem;
-        text-align: center;
-      }
+        .hero-overlay {
+            position: relative;
+            top: auto;
+            left: auto;
+            transform: none;
+            max-width: 90%;
+            margin: 0 auto;
+            padding: 2rem 1rem 0 1rem;
+            text-align: center;
+        }
 
-      .hero-overlay h1 {
-        font-size: 1.6rem;
-        margin-bottom: 1rem;
-      }
+        .hero-overlay h1 {
+            font-size: 1.6rem;
+            margin-bottom: 1rem;
+        }
 
-      .hero-overlay p {
-        font-size: 1rem;
-        line-height: 1.5;
-        padding: 0 0.5rem;
-      }
+        .hero-overlay p {
+            font-size: 1rem;
+            line-height: 1.5;
+            padding: 0 0.5rem;
+        }
     }
 </style>
+
 
 </head>
 <body>
