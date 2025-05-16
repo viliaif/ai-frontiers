@@ -80,30 +80,51 @@
             color: #ccc;
         }
 
-    @media screen and (max-width: 768px) {
+   @media screen and (max-width: 768px) {
+  .hero-section {
+    height: auto;
+    min-height: 100vh;
+    padding-bottom: 4rem;
+    position: relative;
+  }
+
+  .hero-image {
+    height: auto;
+    min-height: 100vh;
+    object-fit: cover;
+  }
+
   .hero-overlay {
-    font-size: 1.3rem;
-    padding: 1rem;
-    top: 45%;
-    transform: translate(-50%, -45%);
-    max-width: 95%;
+    position: relative;
+    top: auto;
+    left: auto;
+    transform: none;
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 2rem 1rem 0 1rem;
+    text-align: center;
   }
 
   .hero-overlay h1 {
-    font-size: 1.6rem !important;
-    margin-bottom: 0.8rem;
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
   }
 
   .hero-subtext {
     font-size: 1rem;
     line-height: 1.5;
-    padding: 0 1rem;
+    padding: 0 0.5rem;
   }
 
   .bottom-text {
+    position: relative;
+    bottom: auto;
+    left: auto;
+    transform: none;
     font-size: 1rem;
-    padding: 0 1rem;
-    bottom: 1rem;
+    margin-top: 2rem;
+    padding-bottom: 2rem;
+    text-align: center;
   }
 }    
     </style>
