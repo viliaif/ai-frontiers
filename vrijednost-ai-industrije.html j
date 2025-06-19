@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vrijednost AI industrije 2024.</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-image: url('assets/AIDhr.png');
+      background-size: cover;
+      background-position: center;
+      margin: 0;
+      padding: 2rem;
+      color: white;
+    }
+
+    .content {
+      max-width: 800px;
+      margin: 0 auto;
+      background-color: rgba(0, 0, 0, 0.65);
+      padding: 2rem;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+    }
+
+    h1 {
+      text-align: center;
+      text-shadow: 2px 2px 6px rgba(0,0,0,0.7);
+    }
+
+    p {
+      line-height: 1.6;
+      font-size: 1.1rem;
+    }
+
+    a {
+      color: #aad;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .back-link {
+      display: block;
+      margin-top: 2rem;
+      text-align: center;
+    }
+
+    .back-link:hover {
+      text-decoration: underline;
+    }
+
+    blockquote {
+      margin-left: 1rem;
+      padding-left: 1rem;
+      border-left: 3px solid #ccc;
+      font-style: italic;
+      color: #ddd;
+    }
+  </style>
+</head>
+<body>
+  <div class="content">
+    <h1>Vrijednost globalne AI industrije premašila 500 milijardi dolara</h1>
+    <p><strong>Datum:</strong> 18. lipnja 2025.</p>
+
+    <p>Umjetna inteligencija postaje jedan od najvažnijih pokretača svjetske ekonomije. Prema najnovijim analizama, ukupna vrijednost globalne AI industrije u 2024. godini procijenjena je na više od 500 milijardi američkih dolara, s očekivanim rastom na 1 bilijun do 2030., a potencijalno i 2 bilijuna do 2040. godine.</p>
+
+    <p>Najveći udio u ovom brzo rastućem tržištu pripada Sjedinjenim Američkim Državama, čije je AI tržište procijenjeno na oko 146 milijardi dolara, dok Kanada dostiže gotovo 44 milijarde. Europska unija bilježi ukupnu vrijednost od 66 milijardi dolara, s Njemačkom kao vodećim tržištem i Ujedinjenim Kraljevstvom koje drži gotovo četvrtinu europskog AI sektora. Azijsko-pacifička regija također pokazuje snažan uzlet – Kina predvodi s iznimno visokom stopom rasta i ambicijom da do 2030. dostigne vrijednost AI tržišta od čak 1,8 bilijuna dolara. Japan, Južna Koreja i Indija dodatno učvršćuju regionalnu dinamiku – osobito Indija, koja s trenutnih 8 milijardi cilja na više nego dvostruki rast do 2027.</p>
+
+    <p>Industrijski rast utemeljen je na nizu ključnih sektora: generativni AI modeli (kao što su oni iz OpenAI-a, DeepMinda i Anthropica), infrastruktura u oblaku (Amazon Web Services, Microsoft Azure, NVIDIA), specijalizirani čipovi za trening i inferenciju, te sve veći broj tzv. vertikalnih rješenja u zdravstvu, financijama, obrani i obrazovanju. Rastući segment čine i AI-BCI integracije, koje se još nalaze u ranoj fazi, ali privlače ozbiljne investicije.</p>
+
+    <p>Geopolitički značaj AI-a teško je precijeniti. Umjetna inteligencija sve više postaje nova strateška sirovina – ne samo kao alat, već i kao infrastruktura moći. U tom kontekstu, SAD trenutačno vodi s više od 100 milijardi dolara godišnjeg privatnog ulaganja u AI, što je višestruko više od kineskih i europskih iznosa. Europska unija, svjesna zaostatka, najavljuje vlastite projekte poput "AI gigafactoryja" superračunala, dok azijske zemlje ubrzano konsolidiraju nacionalne strategije kako bi zauzele ključne pozicije u globalnom poretku.</p>
+
+    <p>Umjetna inteligencija tako prelazi iz tehničke domene u sferu strateške ekonomije, a bitka za njezinu kontrolu oblikovat će buduće odnose moći, znanja i društvenih modela.</p>
+
+    <h3>📎 Izvor</h3>
+    <p>BUG.hr (18. lipnja 2025.) + kompilirani podaci iz IDC, PwC i Goldman Sachs AI izvještaja</p>
+  </div>
+</body>
+</html>
