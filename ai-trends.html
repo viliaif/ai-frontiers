@@ -17,65 +17,34 @@
 
     h1 {
       text-align: center;
-      margin-bottom: 2rem;
+      margin-bottom: 1rem;
       text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.7);
     }
 
-    .news-container {
-      display: flex;
-      flex-direction: column;
-      gap: 1.5rem;
-      max-width: 900px;
-      margin: 0 auto;
-    }
-
-    .news-card {
-      display: block;
-      background-color: rgba(0, 0, 0, 0.6);
-      color: white;
-      padding: 1.5rem;
-      border-radius: 12px;
-      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
-      text-decoration: none;
-      transition: transform 0.2s ease, box-shadow 0.3s ease;
-    }
-
-    .news-card:hover {
-      transform: translateY(-4px);
-      box-shadow: 0 6px 16px rgba(0, 0, 0, 0.4);
-    }
-
-    .news-card h2 {
-      margin-top: 0;
-      font-size: 1.4rem;
-    }
-
-    .news-card .date {
-      font-size: 0.9rem;
-      color: #ddd;
-      margin-bottom: 0.75rem;
-    }
-
-    .news-card p {
-      font-size: 1rem;
-      line-height: 1.5;
-    }
-
-    .pagination {
+    p.intro {
       text-align: center;
-      margin-top: 2rem;
+      color: #ccc;
+      font-size: 1.1rem;
+      margin-bottom: 1.5rem;
     }
 
-    .pagination a {
+    .trend-navigation {
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+
+    .trend-navigation a {
       color: white;
-      background-color: rgba(0, 0, 0, 0.5);
-      padding: 0.5rem 1rem;
-      margin: 0 0.25rem;
+      margin: 0 1rem;
       text-decoration: none;
+      font-weight: bold;
+      background-color: rgba(0, 0, 0, 0.4);
+      padding: 0.4rem 0.8rem;
       border-radius: 8px;
+      transition: background-color 0.2s ease;
     }
 
-    .pagination a:hover {
+    .trend-navigation a:hover {
       background-color: rgba(255, 255, 255, 0.2);
     }
   </style>
@@ -84,88 +53,15 @@
 
   <h1>AI Trends</h1>
 
-  <div class="news-container">
+  <p class="intro">
+    Choose a page to explore the latest developments in the world of artificial intelligence:
+  </p>
 
-    <a href="ai-native-devices.html" class="news-card">
-      <h2>AI Looks for a New Body: The Rise of AI-Native Devices</h2>
-      <p class="date">June 26, 2025</p>
-      <p>
-        A new generation of devices designed for contextual interaction with AI is emerging.  
-        These AI-native tools aim to blur the boundaries between interface and intelligence.
-      </p>
-    </a>
-
-    <a href="gulf-ai-leaders-en.html" class="news-card">
-      <h2>Gulf AI Leaders: Dubai and Riyadh in Race for a Post-Silicon Future</h2>
-      <p class="date">June 24, 2025</p>
-      <p>
-        UAE and Saudi Arabia are emerging as strategic AI leaders in the Middle East, investing over $2 trillion in national AI ecosystems. Their efforts aim to reshape not only their economies but the global AI map itself.
-      </p>
-    </a>
-
-    <a href="altman-contextual-ai.html" class="news-card">
-      <h2>Sam Altman: AI Will Have Unbelievable Context on Your Life</h2>
-      <p class="date">June 20, 2025</p>
-      <p>
-        In a recent podcast interview, OpenAI’s CEO stated that future AI systems will possess deep awareness of your personal life, goals, and habits.  
-        Altman calls for caution: with that power comes the risk of control – and the question of who owns your context.
-      </p>
-    </a>
-
-    <a href="ai-value-industry.html" class="news-card">
-      <h2>Global AI Industry Value Exceeds $500 Billion</h2>
-      <p class="date">June 18, 2025</p>
-      <p>
-        The global AI market has surpassed $500B in 2024 and is on track to reach $1T by 2030.  
-        The U.S., China, EU, and India lead the race, as AI shifts from technical innovation to strategic infrastructure.
-      </p>
-    </a>
-
-    <a href="altman-gentle-singularity.html" class="news-card">
-      <h2>Sam Altman: We've Crossed the Event Horizon – The Gentle Singularity Begins</h2>
-      <p class="date">June 18, 2025</p>
-      <p>
-        According to OpenAI’s CEO, we’ve entered the age of digital superintelligence. Altman describes this transition not as an abrupt rupture, but as a “gentle singularity” – a moment when miracles become routine, and routine becomes the new standard.
-      </p>
-    </a>
-
-    <a href="mit-periodic-ai.html" class="news-card">
-      <h2>MIT Builds a Periodic Table for Artificial Intelligence</h2>
-      <p class="date">April 28, 2025</p>
-      <p>
-        MIT researchers have developed a periodic system of machine learning algorithms, organizing over 20 classical methods into a map inspired by chemical elements. 
-        The system improves prediction accuracy by 8% and enables the design of new models that do not yet exist – they call it I-Con.
-      </p>
-    </a>
-
-    <a href="xi-ai-sovereignty.html" class="news-card">
-      <h2>Will AI Independence Become a New Form of Digital Sovereignty?</h2>
-      <p class="date">April 25, 2025</p>
-      <p>
-        At the China-France-Germany summit, Xi Jinping promoted a multipolar AI order. Behind the message: a strategic push for AI independence as a geopolitical right.
-      </p>  
-    </a>
-
-    <a href="amazon-microsoft-ai-slowdown.html" class="news-card">
-      <h2>Amazon and Microsoft Scale Back AI Data Center Expansion</h2>
-      <p class="date">April 23, 2025</p>
-      <p>
-        Due to growing concerns over energy consumption and sustainability, Amazon and Microsoft have begun cancelling or delaying major AI data center projects. 
-        This signals a shift from rapid expansion toward strategic realism.
-      </p>
-    </a>
-
-  </div>
-
-  <div class="pagination">
-    <a href="ai-trends-page-1.html">1</a>
-    <a href="ai-trends-page-2.html">2</a>
+  <div class="trend-navigation">
+    <a href="ai-trends-page-1.html">Page 1</a>
+    <a href="ai-trends-page-2.html">Page 2</a>
   </div>
 
 </body>
 </html>
-
-
-
-
 
