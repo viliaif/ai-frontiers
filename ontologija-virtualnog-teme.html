@@ -4,96 +4,79 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Ontologija Virtualnog – Teme</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
   <style>
     body {
       margin: 0;
       padding: 0;
-      font-family: 'Georgia', serif;
-      background-image: url('assets/ov-teme.png');
-      background-size: cover;
-      background-position: center;
-      background-attachment: fixed;
-      color: #111;
+      font-family: 'Playfair Display', serif;
+      background: linear-gradient(to bottom, #e6eef5, #f5f7fa);
+      color: #1a1a1a;
     }
-
-    .overlay {
-      background-color: rgba(255, 255, 255, 0.6);
-      padding: 40px;
-      min-height: 100vh;
-    }
-
-    .container {
-      max-width: 800px;
-      margin: 0 auto;
+    .header {
       text-align: center;
+      padding: 60px 20px 20px;
     }
-
     h1 {
-      font-size: 3em;
-      margin-bottom: 0;
+      font-size: 48px;
+      margin-bottom: 10px;
     }
-
     h2 {
-      font-size: 1.8em;
+      font-size: 28px;
       margin-top: 0;
-      color: #444;
+      font-weight: normal;
+      color: #333;
     }
-
     .card {
-      background-color: rgba(255, 255, 255, 0.75);
+      background: white;
+      max-width: 700px;
+      margin: 40px auto;
       padding: 30px;
-      margin-top: 40px;
-      border-radius: 12px;
-      text-align: left;
-      box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
-      color: #111;
+      border-radius: 15px;
+      box-shadow: 0 6px 20px rgba(0,0,0,0.1);
     }
-
     .card h3 {
       margin-top: 0;
-      color: #111;
     }
-
     .card p {
-      font-size: 1.1em;
-      color: #333;
-      line-height: 1.6em;
+      font-size: 18px;
     }
-
-    .card a {
-      color: #0055aa;
+    .links {
+      font-size: 18px;
+      margin-top: 20px;
+    }
+    .links a {
+      color: #003366;
       text-decoration: none;
       font-weight: bold;
     }
-
-    .card a:hover {
+    .links a:hover {
       text-decoration: underline;
     }
-
-    footer {
-      margin-top: 60px;
+    .footer {
       text-align: center;
-      font-size: 0.9em;
-      color: #555;
+      padding: 40px 20px;
+      font-size: 14px;
+      color: #666;
     }
   </style>
 </head>
 <body>
-  <div class="overlay">
-    <div class="container">
-      <h1>Ontologija Virtualnog</h1>
-      <h2>Teme</h2>
+  <div class="header">
+    <h1>Ontologija Virtualnog</h1>
+    <h2>Teme</h2>
+  </div>
 
-      <div class="card">
-        <h3>Pojam virtualnog</h3>
-        <p>Uvodni tekst koji istražuje značenje virtualnog kroz njegov tehnološki, filozofski i simbolički aspekt – postavljajući temelj za dublje razumijevanje suvremene kulture virtualnosti.</p>
-        <p><a href="ov-pojam-virtualnog-1.html">1. dio →</a> | <a href="ov-pojam-virtualnog-2.html">2. dio →</a></p>
-      </div>
-
-      <footer>
-        © 2025 BB Svijet
-      </footer>
+  <div class="card">
+    <h3>Pojam virtualnog</h3>
+    <p>Uvodni tekst koji istražuje značenje virtualnog kroz njegov tehnološki, filozofski i simbolički aspekt – postavljajući temelj za dublje razumijevanje suvremene kulture virtualnosti.</p>
+    <div class="links">
+      <a href="ov-pojam-virtualnog.html">1. dio →</a> | <a href="ov-pojam-virtualnog-2.html">2. dio →</a>
     </div>
+  </div>
+
+  <div class="footer">
+    © 2025 BB Svijet
   </div>
 </body>
 </html>
