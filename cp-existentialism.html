@@ -35,23 +35,25 @@
       top: 50%;
       left: 50%;
       transform: translate(-50%, -50%);
-      color: white;
-      font-size: 2.2rem;
-      font-weight: bold;
-      text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+      color: #222;
       text-align: center;
-      padding: 0 20px;
       z-index: 2;
     }
 
-    .bottom-text {
-      position: absolute;
-      bottom: 2rem;
-      left: 50%;
-      transform: translateX(-50%);
-      font-size: 1.2rem;
-      color: white;
-      z-index: 2;
+    .hero-overlay h1 {
+      font-size: 2.8rem;
+      font-weight: bold;
+      margin-bottom: 1.5rem;
+    }
+
+    .text-box {
+      background-color: rgba(0, 0, 0, 0.35);
+      padding: 1.2rem;
+      border-radius: 10px;
+      color: #f0f0f0;
+      font-size: 1.1rem;
+      max-width: 700px;
+      line-height: 1.6;
     }
 
     .language-switch {
@@ -68,8 +70,13 @@
     }
 
     @media screen and (max-width: 768px) {
-      .hero-overlay {
-        font-size: 1.4rem;
+      .hero-overlay h1 {
+        font-size: 1.8rem;
+      }
+
+      .text-box {
+        font-size: 1rem;
+        padding: 1rem;
       }
     }
 
@@ -89,14 +96,13 @@
     <!-- Language switch -->
     <a href="cp-egzistencijalizam.html" class="language-switch">HR</a>
 
-    <!-- Central title -->
+    <!-- Central title and text -->
     <div class="hero-overlay">
       <h1>CP Existentialism</h1>
-    </div>
-
-    <!-- Bottom text -->
-    <div class="bottom-text">
-      <p>Content coming soon...</p>
+      <div class="text-box">
+        In the age of artificial intelligence, the question of human existence does not disappear — it re-emerges in new and sharper forms.<br><br>
+        As cyberpunk abandons the borders of fiction, the question of human existence becomes a question of boundary: who am I, when nothing guarantees me anymore but my own questioning?
+      </div>
     </div>
   </section>
 
@@ -106,3 +112,4 @@
 
 </body>
 </html>
+
