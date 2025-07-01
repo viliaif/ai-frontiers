@@ -30,30 +30,25 @@
             object-fit: cover;
         }
 
-       .hero-overlay {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
-    font-size: 2.2rem;
-    font-weight: bold;
-    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
-    text-align: center;
-    padding: 0 20px;
-    z-index: 2;
-}
-
-/* Manja slova za mobilne uređaje */
-@media screen and (max-width: 768px) {
-    .hero-overlay {
-        font-size: 1.4rem;
-    }
-
-}
-
+        .hero-overlay {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: white;
+            font-size: 2.2rem;
+            font-weight: bold;
+            text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+            text-align: center;
             padding: 0 20px;
             z-index: 2;
+        }
+
+        /* Manja slova za mobilne uređaje */
+        @media screen and (max-width: 768px) {
+            .hero-overlay {
+                font-size: 1.4rem;
+            }
         }
 
         .bottom-text {
@@ -64,6 +59,9 @@
             font-size: 1.2rem;
             color: white;
             z-index: 2;
+            text-align: center;
+            text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7);
+            padding: 0 1rem;
         }
 
         .language-switch {
@@ -100,9 +98,14 @@
             <h1>CP Egzistencijalizam</h1>
         </div>
 
-        <!-- Bottom text -->
+        <!-- Bottom text with thematic thought -->
         <div class="bottom-text">
-            <p>Uskoro sadržaj...</p>
+            <p>
+                U doba umjetne inteligencije pitanje čovjekove egzistencije ne nestaje, <br>
+                nego se javlja u novim i izraženijim oblicima.<br>
+                Dok cyberpunk napušta granice fikcije, pitanje čovjekova postojanja<br>
+                postaje pitanje granice: tko sam ja, kada me više ništa ne jamči osim mog pitanja.
+            </p>
         </div>
     </section>
 
@@ -112,3 +115,4 @@
 
 </body>
 </html>
+
