@@ -28,14 +28,35 @@
       margin-bottom: 1.5rem;
     }
 
+    .home-link {
+      display: inline-block;
+      margin-bottom: 1.5rem;
+      background-color: rgba(0, 0, 0, 0.5);
+      padding: 0.5rem 1rem;
+      border-radius: 8px;
+      color: white;
+      font-weight: bold;
+      text-decoration: none;
+    }
+
+    .home-link::before {
+      content: "🏠 ";
+    }
+
+    .home-link:hover {
+      background-color: rgba(255, 255, 255, 0.2);
+    }
+
     .trend-navigation {
-      text-align: center;
-      margin-bottom: 2rem;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 0.5rem;
     }
 
     .trend-navigation a {
+      display: inline-block;
       color: white;
-      margin: 0 1rem;
       text-decoration: none;
       font-weight: bold;
       background-color: rgba(0, 0, 0, 0.4);
@@ -47,33 +68,11 @@
     .trend-navigation a:hover {
       background-color: rgba(255, 255, 255, 0.2);
     }
-
-    .back-home {
-      position: absolute;
-      top: 20px;
-      left: 20px;
-    }
-
-    .back-home a {
-      color: white;
-      text-decoration: none;
-      font-size: 0.95rem;
-      background-color: rgba(0,0,0,0.5);
-      padding: 6px 10px;
-      border-radius: 8px;
-    }
-
-    .back-home a:hover {
-      background-color: rgba(255,255,255,0.2);
-    }
   </style>
 </head>
 <body>
 
-  <!-- Poveznica za povratak na Dokumenti -->
-  <div class="back-home">
-    <a href="dokumenti.html">🏠 Dokumenti</a>
-  </div>
+  <a href="dokumenti.html" class="home-link">Dokumenti</a>
 
   <h1>AI Trendovi</h1>
 
