@@ -21,6 +21,25 @@
       text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.7);
     }
 
+    .home-link {
+      position: absolute;
+      top: 20px;
+      left: 20px;
+    }
+
+    .home-link a {
+      color: white;
+      text-decoration: none;
+      background-color: rgba(0,0,0,0.5);
+      padding: 6px 10px;
+      border-radius: 8px;
+      font-size: 0.95rem;
+    }
+
+    .home-link a:hover {
+      background-color: rgba(255,255,255,0.2);
+    }
+
     .news-container {
       display: flex;
       flex-direction: column;
@@ -81,6 +100,12 @@
   </style>
 </head>
 <body>
+
+  <!-- Home Link to AI Trends main page -->
+  <div class="home-link">
+    <a href="ai-trends.html">🏠 AI Trends</a>
+  </div>
+
   <h1>AI Trends</h1>
 
   <div class="news-container">
@@ -101,5 +126,7 @@
     <a href="ai-trends-page-2.html">2</a>
     <a href="ai-trends-page-3.html">3</a>
   </div>
+
 </body>
 </html>
+
