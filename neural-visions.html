@@ -12,18 +12,21 @@
       font-family: 'Georgia', serif;
       overflow-x: hidden;
     }
+
     .hero-section {
       position: relative;
       width: 100%;
       height: 110vh;
       overflow: hidden;
     }
+
     .hero-image {
       width: 100%;
       height: 110vh;
       display: block;
       object-fit: cover;
     }
+
     .hero-overlay {
       position: absolute;
       top: 50%;
@@ -37,6 +40,7 @@
       padding: 0 20px;
       z-index: 2;
     }
+
     .bottom-text {
       position: absolute;
       bottom: 2rem;
@@ -46,6 +50,7 @@
       color: white;
       z-index: 2;
     }
+
     .language-switch {
       position: absolute;
       top: 1rem;
@@ -58,11 +63,13 @@
       border-radius: 5px;
       text-decoration: none;
     }
+
     @media screen and (max-width: 768px) {
       .hero-overlay {
         font-size: 1.4rem;
       }
     }
+
     footer {
       text-align: center;
       padding: 1rem;
@@ -72,6 +79,14 @@
   </style>
 </head>
 <body>
+
+  <!-- Home button -->
+  <div style="position: absolute; top: 1rem; left: 1rem; z-index: 3;">
+    <a href="page2-en.html" style="font-size: 1rem; color: white; text-decoration: none; background-color: rgba(0,0,0,0.5); padding: 0.3rem 0.6rem; border-radius: 5px;">
+      🏠 Home
+    </a>
+  </div>
+
   <section class="hero-section">
     <img src="assets/NV.png" alt="Neural Visions" class="hero-image" />
     <a href="neuronske-vizije.html" class="language-switch">HR</a>
