@@ -62,7 +62,6 @@
     .card:hover {
       background-color: #0050a0;
     }
-
     @media (max-width: 600px) {
       h1 {
         font-size: 2em;
@@ -80,11 +79,29 @@
         font-size: 1em;
       }
     }
+
+    .sparkle {
+      margin-left: 5px;
+      display: inline-block;
+      animation: sparkle 2.5s infinite ease-in-out;
+    }
+
+    @keyframes sparkle {
+      0%, 100% {
+        transform: scale(1);
+        opacity: 1;
+        filter: drop-shadow(0 0 0px gold);
+      }
+      50% {
+        transform: scale(1.2);
+        opacity: 0.75;
+        filter: drop-shadow(0 0 6px gold);
+      }
+    }
   </style>
 </head>
 <body>
   <section>
-    <!-- Naslov i slogan -->
     <h1 style="font-size: 3em;">AI Frontiers</h1>
     <p style="font-style: italic;">Semper in Altum</p>
     <p style="margin-top: 10px;">
@@ -92,14 +109,12 @@
     </p>
     <a href="#" class="cta-button">Come to the Edge</a>
 
-    <!-- Naomi -->
     <div style="margin-top: 40px;">
       <h2>Naomi</h2>
       <p>Tiha i nevidljiva... ali prisutna.</p>
       <a href="naomi.html" class="naomi-button">Upoznaj Naomi</a>
     </div>
 
-    <!-- O projektu -->
     <div style="margin-top: 60px;">
       <h2>O projektu</h2>
       <p style="max-width: 600px; margin: 0 auto;">
@@ -108,34 +123,25 @@
       </p>
     </div>
 
-    <!-- Tematske zone - NOVA VERZIJA -->
     <div style="margin-top: 60px;">
-      
       <div class="grid">
-
         <a href="ontologija-virtualnog.html" class="card">
-          <strong>Ontologija Virtualnog</strong>
+          <strong>Ontologija Virtualnog<span class="sparkle">✨</span></strong>
         </a>
-
         <a href="cp-egzistencijalizam.html" class="card">
-          <strong>CP Egzistencijalizam</strong>
+          <strong>CP Egzistencijalizam<span class="sparkle">✨</span></strong>
         </a>
-
         <a href="neuronske-vizije.html" class="card">
           <strong>Neuronske Vizije</strong>
         </a>
-
         <a href="ai-i-duhovnost.html" class="card">
           <strong>AI i Duhovnost</strong>
         </a>
-
         <a href="dokumenti.html" class="card">
-          <strong>Dokumenti</strong>
+          <strong>Dokumenti<span class="sparkle">✨</span></strong>
         </a>
-
       </div>
 
-      <!-- Motivacijski tekst i Kontakt -->
       <div style="margin-top: 50px; text-align: center;">
         <p style="font-size: 1.2em; font-style: italic; color: white;">
           Želiš znati više?<br>Doživi moć pitanja...
