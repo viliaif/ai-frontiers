@@ -58,10 +58,26 @@
       color: white;
       transition: 0.3s ease;
       font-size: 1.2em;
+      position: relative;
     }
     .card:hover {
       background-color: #0050a0;
     }
+
+    /* Sparkle effect */
+    .sparkle::after {
+      content: '✨';
+      position: absolute;
+      top: 8px;
+      right: 10px;
+      animation: sparkle 1.5s infinite alternate;
+    }
+
+    @keyframes sparkle {
+      0% { opacity: 0.2; transform: scale(1); }
+      100% { opacity: 1; transform: scale(1.4); }
+    }
+
     @media (max-width: 600px) {
       h1 {
         font-size: 2em;
@@ -107,15 +123,15 @@
       </p>
     </div>
 
-    <!-- Thematic Areas – simplified -->
+    <!-- Thematic Areas – updated -->
     <div style="margin-top: 60px;">
       <div class="grid">
 
-        <a href="ontology-of-the-virtual.html" class="card">
+        <a href="ontology-of-the-virtual.html" class="card sparkle">
           <strong>Ontology of the Virtual</strong>
         </a>
 
-        <a href="cp-existentialism.html" class="card">
+        <a href="cp-existentialism.html" class="card sparkle">
           <strong>CP Existentialism</strong>
         </a>
 
@@ -127,7 +143,7 @@
           <strong>AI and Spirituality</strong>
         </a>
 
-        <a href="aifiles.html" class="card">
+        <a href="aifiles.html" class="card sparkle">
           <strong>AI Files</strong>
         </a>
 
