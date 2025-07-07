@@ -1,59 +1,74 @@
 <!DOCTYPE html>
 <html lang="hr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dokumenti</title>
-    <style>
-        body, html {
-            margin: 0;
-            padding: 0;
-            height: 100%;
-        }
-        .hero {
-            background-image: url('assets/AIDhr.png');
-            background-size: cover;
-            background-position: center;
-            height: 100vh;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            text-align: center;
-            color: white;
-            padding: 0 20px;
-            position: relative;
-        }
-        h1 {
-            font-size: 3em;
-            margin-bottom: 0.5em;
-            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
-        }
-        p {
-            font-size: 1.5em;
-            margin-bottom: 1em;
-            max-width: 800px;
-            text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
-        }
-        .buttons {
-            display: flex;
-            gap: 20px;
-            flex-wrap: wrap;
-            justify-content: center;
-        }
-        .buttons a {
-            padding: 15px 30px;
-            background-color: rgba(0, 0, 0, 0.6);
-            color: white;
-            text-decoration: none;
-            border-radius: 8px;
-            font-size: 1.2em;
-            transition: background-color 0.3s ease;
-        }
-        .buttons a:hover {
-            background-color: rgba(0, 0, 0, 0.8);
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dokumenti</title>
+  <style>
+    body, html {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+    }
+    .hero {
+      background-image: url('assets/AIDhr.png');
+      background-size: cover;
+      background-position: center;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      color: white;
+      padding: 0 20px;
+      position: relative;
+    }
+    h1 {
+      font-size: 3em;
+      margin-bottom: 0.5em;
+      text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+    }
+    p {
+      font-size: 1.5em;
+      margin-bottom: 1em;
+      max-width: 800px;
+      text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+    }
+    .buttons {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .buttons a {
+      padding: 15px 30px;
+      background-color: rgba(0, 0, 0, 0.6);
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      font-size: 1.2em;
+      transition: background-color 0.3s ease;
+      position: relative;
+    }
+    .buttons a:hover {
+      background-color: rgba(0, 0, 0, 0.8);
+    }
+
+    /* Animacija za zvjezdicu */
+    .sparkle::after {
+      content: '✨';
+      position: absolute;
+      top: 8px;
+      right: -20px;
+      animation: sparkle 1.5s infinite alternate;
+    }
+
+    @keyframes sparkle {
+      0% { opacity: 0.2; transform: scale(1); }
+      100% { opacity: 1; transform: scale(1.4); }
+    }
+  </style>
 </head>
 <body>
 
@@ -75,11 +90,12 @@
   <div class="buttons">
     <a href="kljucni-dokumenti.html">Ključni dokumenti</a>
     <a href="#">Aktualno</a>
-    <a href="ai-trendovi.html">AI Trendovi</a>
+    <a href="ai-trendovi.html" class="sparkle">AI Trendovi</a>
   </div>
 
 </div>
 
 </body>
 </html>
+
 
