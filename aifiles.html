@@ -61,10 +61,25 @@
       border-radius: 25px;
       font-size: 1.2em;
       transition: background-color 0.3s ease;
+      position: relative;
     }
 
     .buttons a:hover {
       background-color: #062f57;
+    }
+
+    /* ✨ Animacija za zvjezdicu */
+    .sparkle::after {
+      content: '✨';
+      position: absolute;
+      top: 8px;
+      right: 12px;
+      animation: sparkle 1.5s infinite alternate;
+    }
+
+    @keyframes sparkle {
+      0% { opacity: 0.2; transform: scale(1); }
+      100% { opacity: 1; transform: scale(1.4); }
     }
 
     @media (max-width: 600px) {
@@ -101,10 +116,11 @@
   <div class="buttons">
     <a href="key-documents.html">Key Documents</a>
     <a href="#">Current</a>
-    <a href="ai-trends.html">AI Trends</a>
+    <a href="ai-trends.html" class="sparkle">AI Trends</a>
   </div>
 
 </div>
 
 </body>
 </html>
+
