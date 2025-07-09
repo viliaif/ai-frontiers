@@ -13,6 +13,10 @@
       background-color: #e4ecf1;
       color: #1a1a1a;
       line-height: 1.8;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
     }
     .container {
       max-width: 800px;
@@ -30,6 +34,13 @@
       text-decoration: underline;
     }
   </style>
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      document.body.oncontextmenu = function () { return false; };
+      document.body.onselectstart = function () { return false; };
+      document.body.onmousedown = function () { return false; };
+    });
+  </script>
 </head>
 <body>
   <div class="container">
@@ -58,3 +69,4 @@
   </div>
 </body>
 </html>
+
