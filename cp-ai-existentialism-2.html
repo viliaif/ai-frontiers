@@ -13,6 +13,10 @@
       background-color: #e4ecf1;
       color: #1a1a1a;
       line-height: 1.8;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
     }
     .container {
       max-width: 800px;
@@ -30,11 +34,24 @@
       text-decoration: underline;
     }
   </style>
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      // Blokira desni klik
+      document.body.addEventListener('contextmenu', function (e) {
+        e.preventDefault();
+      });
+
+      // Blokira označavanje teksta
+      document.body.addEventListener('selectstart', function (e) {
+        e.preventDefault();
+      });
+    });
+  </script>
 </head>
 <body>
   <div class="container">
     <p><a href="cp-ai-existentialism-1.html">← Back to Part One</a></p>
- <h1>Artificial Intelligence and Existentialism – Part 2</h1>
+    <h1>Artificial Intelligence and Existentialism – Part 2</h1>
 
     <h2>Cyberpunk – An Existential Note</h2>
     <p>In the highly technological and informational age, the questions raised by existentialism take on — we might say — an even more concrete and sharpened form. If in the modern era these questions were explored in the realm of philosophy, in the technological age they are filtered through science fiction literature — particularly through its branch of cyberpunk, which appears as a narrative form of existentialism.</p>
@@ -73,3 +90,4 @@
   </div>
 </body>
 </html>
+
