@@ -13,6 +13,10 @@
       background-color: #f3f3f3;
       color: #1a1a1a;
       line-height: 1.8;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
     }
     .container {
       max-width: 800px;
@@ -36,6 +40,16 @@
       font-weight: bold;
     }
   </style>
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      document.body.addEventListener('contextmenu', function (e) {
+        e.preventDefault();
+      });
+      document.body.addEventListener('selectstart', function (e) {
+        e.preventDefault();
+      });
+    });
+  </script>
 </head>
 <body>
   <div class="container">
@@ -44,9 +58,9 @@
 
     <h2>Slabi pojam: Virtualno kao ontološka mogućnost</h2>
 
-    <p>Premda je virtualno kao pojam ušlo u širu upotrebu tek u kontekstu digitalne tehnologije, ono ima duboke filozofijsko-ontološke korijene u napetosti između mogućeg i stvarnog – napetosti koja otvara prostor za njegovo razumijevanje kao modaliteta postojanja, a ne kao pukog surogata stvarnosti. Virtualno – shvaćeno kao ono što nije aktualno, ali može biti – pod drugim imenima prisutno je još od Aristotela. Njegova distinkcija između dynamis (mogućnost) i energeia (aktualizacija) upućuje na to da stvarnost nije iscrpljena u pojavnom, nego uključuje i ono što bi moglo biti.</p>
+    <p>Premda je virtualno kao pojam ušlo u širu upotrebu tek u kontekstu digitalne tehnologije, ono ima duboke filozofijsko-ontološke korijene u napetosti između mogućeg i stvarnog – napetosti koja otvara prostor za njegovo razumijevanje kao modaliteta postojanja, a ne kao pukog surogata stvarnosti. Virtualno – shvaćeno kao ono što nije aktualno, ali može biti – pod drugim imenima prisutno je još od Aristotela. Njegova distinkcija između <em>dynamis</em> (mogućnost) i <em>energeia</em> (aktualizacija) upućuje na to da stvarnost nije iscrpljena u pojavnom, nego uključuje i ono što bi moglo biti.</p>
 
-    <p>U skolastičkoj filozofiji, osobito kod Tome Akvinskoga, nalazimo pojam virtus – unutarnja moć ili potencija nečega, koja još nije izražena, ali realno postoji. Upravo od tog pojma potječe i sama riječ virtualno, iz latinskog virtus, što označava snagu, djelotvornost, mogućnost koja čeka ostvarenje. Dakle, etimološki, virtualno ne znači lažno ili nestvarno, nego ono što ima moć postojanja, iako još nije aktualizirano. Kasnije će Henri Bergson uvesti pojam trajanja (durée) kao neprekinutog toka koji obuhvaća i ono što nije još aktualno, dok će Gilles Deleuze u 20. stoljeću izričito tematizirati virtualno kao stvarno, ali neaktualizirano – kao pozitivnu ontološku dimenziju.</p>
+    <p>U skolastičkoj filozofiji, osobito kod Tome Akvinskoga, nalazimo pojam <em>virtus</em> – unutarnja moć ili potencija nečega, koja još nije izražena, ali realno postoji. Upravo od tog pojma potječe i sama riječ virtualno, iz latinskog <em>virtus</em>, što označava snagu, djelotvornost, mogućnost koja čeka ostvarenje. Dakle, etimološki, virtualno ne znači lažno ili nestvarno, nego ono što ima moć postojanja, iako još nije aktualizirano. Kasnije će Henri Bergson uvesti pojam trajanja (<em>durée</em>) kao neprekinutog toka koji obuhvaća i ono što nije još aktualno, dok će Gilles Deleuze u 20. stoljeću izričito tematizirati virtualno kao stvarno, ali neaktualizirano – kao pozitivnu ontološku dimenziju.</p>
 
     <p>U svim tim primjerima, virtualno se ne shvaća kao iluzija ili kopija, nego kao realna mogućnost – nešto što postoji na svoj način, iako nije prisutno u fizičkom smislu. Time virtualno dobiva dublje značenje: ono nije suprotstavljeno stvarnome, nego je njegov drugačiji modalitet – „ostvarljiva“ forma postojanja koja prethodi aktualnosti i omogućuje njezinu pojavu.</p>
 
@@ -56,7 +70,7 @@
 
     <p>Kulturna stvarnost je, u tom smislu, uvijek imala virtualnu dimenziju – ne kao suprotnost stvarnome, nego kao način oblikovanja našeg iskustva stvarnosti, unutar nas i izvan nas. Središnje funkcije kulture – pripovijedanje, tumačenje, prenošenje – ne djeluju prvenstveno kroz materijalne objekte, nego kroz virtualni prostor značenja: simbolički sloj koji omogućuje nadilaženje pukog osjetilnog ili iskustvenog kontakta sa zbiljom i otvara dimenzije značenja, pripadnosti i duhovne prisutnosti koje nisu izravno vezane uz fizičko.</p>
 
-    <p>Kada danas govorimo o digitalnim svjetovima, možemo ih shvatiti kao nastavak sui generis onog što je kultura već činila simbolički: stvaranje svjetova koji nisu ovdje, ali nas ipak oblikuju. Tehnološko virtualno tako ne stvara nešto radikalno novo, nego preuzima ontološki obrazac kulture i pojačava ga – čineći ga prisutnijim, interaktivnijim i osjetilno uvjerljivijim.</p>
+    <p>Kada danas govorimo o digitalnim svjetovima, možemo ih shvatiti kao nastavak <em>sui generis</em> onog što je kultura već činila simbolički: stvaranje svjetova koji nisu ovdje, ali nas ipak oblikuju. Tehnološko virtualno tako ne stvara nešto radikalno novo, nego preuzima ontološki obrazac kulture i pojačava ga – čineći ga prisutnijim, interaktivnijim i osjetilno uvjerljivijim.</p>
 
     <h2>Zaključak: Ontologija virtualnog kao otvoreno pitanje</h2>
 
@@ -66,9 +80,10 @@
 
     <p>Otuda poziv: ontologija virtualnog se javlja kao novo misaono polje – otvoreno, hibridno, dinamično. U njemu ćemo možda pronaći i nove moduse razumijevanja istine, prisutnosti, pa i samog čovjeka. Virtualno, kako se ovdje pokazuje, nije tek fenomen vremena – ono je možda novi oblik vremena postojanja.</p>
 
-    <p>Suvremeni oblik virtualnog možda u zaoštrenijoj formi postavlja pitanje koje zvuči kao negativna parafraza Leibnizove teodiceje: živimo li uistinu u jedinom (mogućem) svijetu? Kako to lijepo pokazuje Marcelo Gleiser u knjizi The Island of Knowledge, čovjekova intelektualna povijest svjedoči kako je širenje granica spoznaje istodobno značilo i širenje granica same stvarnosti.</p>
+    <p>Suvremeni oblik virtualnog možda u zaoštrenijoj formi postavlja pitanje koje zvuči kao negativna parafraza Leibnizove teodiceje: živimo li uistinu u jedinom (mogućem) svijetu? Kako to lijepo pokazuje Marcelo Gleiser u knjizi <em>The Island of Knowledge</em>, čovjekova intelektualna povijest svjedoči kako je širenje granica spoznaje istodobno značilo i širenje granica same stvarnosti.</p>
 
     <p class="nav-link"><a href="ov-pojam-virtualnog-1.html">← Prvi dio teksta</a></p>
   </div>
 </body>
 </html>
+
