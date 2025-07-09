@@ -8,6 +8,7 @@
     body {
       margin: 0;
       font-family: Arial, sans-serif;
+      background-color: #000;
     }
     section {
       text-align: center;
@@ -63,8 +64,6 @@
     .card:hover {
       background-color: #0050a0;
     }
-
-    /* Sparkle effect */
     .sparkle::after {
       content: '✨';
       position: absolute;
@@ -72,12 +71,16 @@
       right: 10px;
       animation: sparkle 1.5s infinite alternate;
     }
-
     @keyframes sparkle {
       0% { opacity: 0.2; transform: scale(1); }
       100% { opacity: 1; transform: scale(1.4); }
     }
-
+    .footer {
+      font-size: 0.9em;
+      color: rgba(255, 255, 255, 0.6);
+      text-align: center;
+      margin-top: 80px;
+    }
     @media (max-width: 600px) {
       h1 {
         font-size: 2em;
@@ -123,30 +126,24 @@
       </p>
     </div>
 
-    <!-- Thematic Areas – updated -->
+    <!-- Thematic Areas -->
     <div style="margin-top: 60px;">
       <div class="grid">
-
         <a href="ontology-of-the-virtual.html" class="card sparkle">
           <strong>Ontology of the Virtual</strong>
         </a>
-
         <a href="cp-existentialism.html" class="card sparkle">
           <strong>CP Existentialism</strong>
         </a>
-
         <a href="neural-visions.html" class="card">
           <strong>Neural Visions</strong>
         </a>
-
         <a href="ai-and-spirituality.html" class="card">
           <strong>AI and Spirituality</strong>
         </a>
-
         <a href="aifiles.html" class="card sparkle">
           <strong>AI Files</strong>
         </a>
-
       </div>
 
       <!-- Call to action -->
@@ -155,6 +152,11 @@
           Want to know more?<br>Discover the power of questions...
         </p>
         <a href="contact.html" class="cta-button">Contact</a>
+      </div>
+
+      <!-- Footer -->
+      <div class="footer">
+        © 2025 BB World
       </div>
     </div>
   </section>
