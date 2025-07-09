@@ -36,15 +36,15 @@
   </style>
   <script>
     document.addEventListener('DOMContentLoaded', function () {
-      document.body.oncontextmenu = function () { return false; };
-      document.body.onselectstart = function (e) {
-        if (e.target.tagName.toLowerCase() === 'a') return true;
-        return false;
-      };
-      document.body.onmousedown = function (e) {
-        if (e.target.tagName.toLowerCase() === 'a') return true;
-        return false;
-      };
+      // Block right-click
+      document.body.addEventListener('contextmenu', function (e) {
+        e.preventDefault();
+      });
+
+      // Block text selection
+      document.body.addEventListener('selectstart', function (e) {
+        e.preventDefault();
+      });
     });
   </script>
 </head>
