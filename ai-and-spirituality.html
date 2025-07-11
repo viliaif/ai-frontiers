@@ -37,21 +37,34 @@
       left: 50%;
       transform: translate(-50%, -50%);
       color: white;
-      font-size: 2.2rem;
-      font-weight: bold;
-      text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
       text-align: center;
-      padding: 0 20px;
       z-index: 2;
     }
 
-    .hero-overlay a {
+    .hero-overlay h1 {
+      font-size: 2.6rem;
+      font-weight: bold;
+      margin-bottom: 1.5rem;
+      text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+    }
+
+    .hero-overlay h1 a {
       color: white;
       text-decoration: none;
     }
 
-    .hero-overlay a:hover {
+    .hero-overlay h1 a:hover {
       text-decoration: underline;
+    }
+
+    .text-box {
+      background-color: rgba(0, 0, 0, 0.35);
+      padding: 1.2rem;
+      border-radius: 10px;
+      color: #f0f0f0;
+      font-size: 1.1rem;
+      max-width: 700px;
+      line-height: 1.6;
     }
 
     .language-switch {
@@ -81,8 +94,13 @@
     }
 
     @media screen and (max-width: 768px) {
-      .hero-overlay {
-        font-size: 1.4rem;
+      .hero-overlay h1 {
+        font-size: 1.8rem;
+      }
+
+      .text-box {
+        font-size: 1rem;
+        padding: 1rem;
       }
     }
 
@@ -105,9 +123,18 @@
     <!-- Language switch -->
     <a href="ai-i-duhovnost.html" class="language-switch">HR</a>
 
-    <!-- Clickable title -->
+    <!-- Overlay title and text -->
     <div class="hero-overlay">
-      <a href="ais-themes.html"><h1>AI and Spirituality</h1></a>
+      <h1><a href="ais-themes.html">AI and Spirituality</a></h1>
+      <div class="text-box">
+        <p>
+          The concept of <strong>Transcendence</strong> reminds us<br>
+          of the dynamic nature of reality that remains a mystery to us.<br>
+          It does not so much tell us what to think,<br>
+          but how to think — if we want to remain open<br>
+          to the revelation of that Mystery.
+        </p>
+      </div>
     </div>
   </section>
 
