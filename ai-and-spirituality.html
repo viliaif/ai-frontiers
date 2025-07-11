@@ -1,108 +1,120 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AI and Spirituality</title>
-    <style>
-        html, body {
-            margin: 0;
-            padding: 0;
-            height: 100%;
-        }
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>AI Spirituality</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet"/>
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+    }
 
-        body {
-            overflow-x: hidden;
-            font-family: 'Georgia', serif;
-        }
+    body {
+      overflow-x: hidden;
+      font-family: 'Playfair Display', serif;
+    }
 
-        .hero-section {
-            position: relative;
-            width: 100%;
-            height: 110vh;
-            overflow: hidden;
-        }
+    .hero-section {
+      position: relative;
+      width: 100%;
+      height: 110vh;
+      overflow: hidden;
+    }
 
-        .hero-image {
-            width: 100%;
-            height: 110vh;
-            display: block;
-            object-fit: cover;
-        }
+    .hero-image {
+      width: 100%;
+      height: 110vh;
+      display: block;
+      object-fit: cover;
+    }
 
-        .hero-overlay {
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            color: white;
-            font-size: 2.2rem;
-            font-weight: bold;
-            text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
-            text-align: center;
-            padding: 0 20px;
-            z-index: 2;
-        }
+    .hero-overlay {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: white;
+      font-size: 2.2rem;
+      font-weight: bold;
+      text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+      text-align: center;
+      padding: 0 20px;
+      z-index: 2;
+    }
 
-        .bottom-text {
-            position: absolute;
-            bottom: 2rem;
-            left: 50%;
-            transform: translateX(-50%);
-            font-size: 1.2rem;
-            color: white;
-            z-index: 2;
-        }
+    .hero-overlay a {
+      color: white;
+      text-decoration: none;
+    }
 
-        .language-switch {
-            position: absolute;
-            top: 1rem;
-            right: 1rem;
-            z-index: 3;
-            font-size: 1rem;
-            color: white;
-            background-color: rgba(0,0,0,0.5);
-            padding: 0.3rem 0.6rem;
-            border-radius: 5px;
-            text-decoration: none;
-        }
+    .hero-overlay a:hover {
+      text-decoration: underline;
+    }
 
-        @media screen and (max-width: 768px) {
-            .hero-overlay {
-                font-size: 1.4rem;
-            }
-        }
+    .language-switch {
+      position: absolute;
+      top: 1rem;
+      right: 1rem;
+      z-index: 3;
+      font-size: 1rem;
+      color: white;
+      background-color: rgba(0,0,0,0.5);
+      padding: 0.3rem 0.6rem;
+      border-radius: 5px;
+      text-decoration: none;
+    }
 
-        footer {
-            text-align: center;
-            padding: 1rem;
-            font-size: 0.9rem;
-            color: #ccc;
-        }
-    </style>
+    .home-link {
+      position: absolute;
+      top: 1rem;
+      left: 1rem;
+      z-index: 3;
+      font-size: 1rem;
+      color: white;
+      background-color: rgba(0,0,0,0.5);
+      padding: 0.3rem 0.6rem;
+      border-radius: 5px;
+      text-decoration: none;
+    }
+
+    @media screen and (max-width: 768px) {
+      .hero-overlay {
+        font-size: 1.4rem;
+      }
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+      color: #ccc;
+    }
+  </style>
 </head>
 <body>
 
-    <section class="hero-section">
-        <img src="assets/AISP.jpg" alt="AI and Spirituality" class="hero-image" />
+  <!-- Home button -->
+  <a href="page2.html" class="home-link">🏠 Home</a>
 
-        <!-- Language switch -->
-        <a href="ai-i-duhovnost.html" class="language-switch">HR</a>
+  <section class="hero-section">
+    <img src="assets/AISP.jpg" alt="AI and Spirituality" class="hero-image" />
 
-        <!-- Central title -->
-        <div class="hero-overlay">
-            <h1>AI and Spirituality</h1>
-        </div>
+    <!-- Language switch -->
+    <a href="ai-i-duhovnost.html" class="language-switch">HR</a>
 
-        <!-- Bottom text -->
-        <div class="bottom-text">
-            <p>Content coming soon...</p>
-        </div>
-    </section>
+    <!-- Clickable title -->
+    <div class="hero-overlay">
+      <a href="ais-themes.html"><h1>AI Spirituality</h1></a>
+    </div>
+  </section>
 
-    <footer>
-        © 2025 BB World
-    </footer>
+  <footer>
+    © 2025 BB World
+  </footer>
 
 </body>
 </html>
+
