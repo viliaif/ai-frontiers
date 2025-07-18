@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>AI Trends – Page 1</title>
+  <title>AI Trends – Page 3</title>
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -106,49 +106,42 @@
     <a href="ai-trends.html">🏠 AI Trends</a>
   </div>
 
-  <h1>AI Trends</h1>
+  <h1>AI Trends – Page 3</h1>
 
   <div class="news-container">
 
-    <div class="news-container">  
+    <a href="aite-data-centers.html" class="news-card">
+      <h2>Three Data Temples: AI Infrastructure as a New Weapon of Power</h2>
+      <p class="date">July 18, 2025</p>
+      <p>From Abu Dhabi to the ocean floor — OpenAI, Meta, and China are building next-gen AI supercenters. These massive data structures are reshaping the global order of compute and digital dominance.</p>
+    </a>
 
-<a href="aite-data-centers.html" class="news-card">
-  <h2>Three Data Temples: AI Infrastructure as a New Weapon of Power</h2>
-  <p class="date">July 18, 2025</p>
-  <p>From Abu Dhabi to the ocean floor — OpenAI, Meta, and China are building next-gen AI supercenters. These massive data structures are reshaping the global order of compute and digital dominance.</p>
-</a>
-     
-<a href="aite-intel-defeat-ai-race.html" class="news-card">
-  <h2>Intel’s CEO Admits Defeat in the AI Race</h2>
-  <p class="date">July 14, 2025</p>
-  <p>
-    For the first time in decades, Intel is no longer in the global top ten semiconductor producers.  
-    CEO admits it’s “too late” to catch up with NVIDIA, triggering layoffs and a strategic pivot toward edge AI systems.
-  </p>
-      
-<a href="aite-spotify-ai-weapons.html" class="news-card">
-    <h2>Spotify Faces Criticism over AI Weapons Investment</h2>
-    <p class="date">July 10, 2025</p>
-    <p>Spotify CEO Daniel Ek has invested over $700 million in military AI through Helsing. The move triggered backlash from artists, with the band Deerhoof removing all their music from the platform in protest.</p>
-  </a>
+    <a href="aite-intel-defeat-ai-race.html" class="news-card">
+      <h2>Intel’s CEO Admits Defeat in the AI Race</h2>
+      <p class="date">July 14, 2025</p>
+      <p>For the first time in decades, Intel is no longer in the global top ten semiconductor producers.  
+      CEO admits it’s “too late” to catch up with NVIDIA, triggering layoffs and a strategic pivot toward edge AI systems.</p>
+    </a>
 
-      <a href="aite-denmark-face-law.html" class="news-card">
-    <h2>Denmark Introduces Law to Protect Human Faces in the Age of AI</h2>
-    <p class="date">July 10, 2025</p>
-    <p>
-      Denmark proposes a law banning AI-generated facial images without consent, sparking global interest.  
-      The initiative raises ethical concerns and reaffirms the importance of human dignity in the digital age.
-    </p>
-  </a>
+    <a href="aite-spotify-ai-weapons.html" class="news-card">
+      <h2>Spotify Faces Criticism over AI Weapons Investment</h2>
+      <p class="date">July 10, 2025</p>
+      <p>Spotify CEO Daniel Ek has invested over $700 million in military AI through Helsing. The move triggered backlash from artists, with the band Deerhoof removing all their music from the platform in protest.</p>
+    </a>
 
-  <a href="aite-meta-talent-hunt.html" class="news-card">
-    <h2>Meta Aggressively Recruits AI Talent from OpenAI and DeepMind</h2>
-    <p class="date">July 3, 2025</p>
-    <p>
-      Meta has launched a new AGI lab under Yann LeCun and recruited top researchers from OpenAI, DeepMind, and Anthropic.  
-      High bonuses and internal friction at other orgs are fueling one of the most intense talent shifts in AI history.
-    </p>
-  </a>
+    <a href="aite-denmark-face-law.html" class="news-card">
+      <h2>Denmark Introduces Law to Protect Human Faces in the Age of AI</h2>
+      <p class="date">July 10, 2025</p>
+      <p>Denmark proposes a law banning AI-generated facial images without consent, sparking global interest.  
+      The initiative raises ethical concerns and reaffirms the importance of human dignity in the digital age.</p>
+    </a>
+
+    <a href="aite-meta-talent-hunt.html" class="news-card">
+      <h2>Meta Aggressively Recruits AI Talent from OpenAI and DeepMind</h2>
+      <p class="date">July 3, 2025</p>
+      <p>Meta has launched a new AGI lab under Yann LeCun and recruited top researchers from OpenAI, DeepMind, and Anthropic.  
+      High bonuses and internal friction at other orgs are fueling one of the most intense talent shifts in AI history.</p>
+    </a>
 
   </div>
 
@@ -160,4 +153,5 @@
 
 </body>
 </html>
+
 
