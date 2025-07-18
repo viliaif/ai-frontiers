@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>AI Trendovi – Stranica 1</title>
+  <title>AI Trendovi – Stranica 3</title>
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -82,21 +82,24 @@
 </head>
 <body>
 
-  <h1>AI Trendovi – Stranica 1</h1>
+  <h1>AI Trendovi – Stranica 3</h1>
 
   <div class="news-container">
 
-<a href="aith-data-centri.html" class="news-card">
-  <h2>Tri podatkovna hrama: AI infrastruktura kao novo oružje moći</h2>
-  <p class="date">18. srpnja 2025.</p>
-  <p>OpenAI, Meta i Kina grade mega podatkovne centre – od Abu Dhabija do oceanskog dna. Ova nova AI infrastruktura mijenja geopolitiku računske moći i oblikuje digitalnu budućnost čovječanstva.</p>
-</a>
+    <a href="aite-data-centers.html" class="news-card">
+      <h2>Three Data Temples: AI Infrastructure as a New Weapon of Power</h2>
+      <p class="date">July 18, 2025</p>
+      <p>From Abu Dhabi to the ocean floor — OpenAI, Meta, and China are building next-gen AI supercenters. These massive data structures are reshaping the global order of compute and digital dominance.</p>
+    </a>
+
+    <!-- Ostale vijesti dolje ostaju iste -->
 
     <a href="aith-intel-poraz-u-ai.html" class="news-card">
       <h2>Intelov CEO priznaje poraz u AI utrci</h2>
       <p class="date">14. srpnja 2025.</p>
       <p>Intel je prvi put ispao s popisa 10 najvećih proizvođača čipova, a njegov CEO priznaje da je tvrtka prekasno reagirala na AI revoluciju. Fokus se sada preusmjerava na edge AI i agentične sustave.</p>
     </a>
+
     <a href="aith-spotify-ai-oruzje.html" class="news-card">
       <h2>Spotify pod kritikama zbog ulaganja u AI oružje</h2>
       <p class="date">10. srpnja 2025.</p>
@@ -122,9 +125,7 @@
     <a href="ai-trendovi-stranica-1.html">1</a>
     <a href="ai-trendovi-stranica-2.html">2</a>
     <a href="ai-trendovi-stranica-3.html">3</a>
-    <a href="ai-trendovi-stranica-2.html">Naprijed »</a>
   </div>
 
 </body>
 </html>
-
