@@ -10,7 +10,7 @@
       margin: 0;
       padding: 0;
       font-family: 'Playfair Display', serif;
-      background-color: #eaf2fa;
+      background-color: #e4ecf1;
       color: #1a1a1a;
       line-height: 1.8;
       -webkit-user-select: none;
@@ -23,22 +23,22 @@
       margin: 60px auto;
       padding: 20px;
     }
-    h1, h2 {
-      color: #111;
+    h1 {
+      font-size: 2.2em;
+      color: #002244;
+      margin-bottom: 20px;
     }
     a {
-      color: #0077aa;
+      color: #0044cc;
       text-decoration: none;
       font-weight: bold;
     }
     a:hover {
       text-decoration: underline;
     }
-    .footer {
-      text-align: center;
-      margin-top: 60px;
-      font-size: 0.9em;
-      color: #666;
+    p {
+      font-size: 1.2em;
+      line-height: 1.8;
     }
   </style>
   <script>
@@ -54,7 +54,7 @@
 </head>
 <body>
   <div class="container">
-    <p><a href="ovh-dematerijalizacija-stvarnog-1.html">← Povratak na 1. dio</a></p>
+    <p><a href="ovh-teme-stranica-1.html">← Povratak na međustranicu</a></p>
     <h1>Dematerijalizacija stvarnoga – 2. dio</h1>
 
     <p>Zanimljivo je pritom uočiti da je upravo metafizika – nekada kraljica znanosti – u ovom procesu najviše nastradala. Filozofija koja je nekoć postavljala najdublja pitanja o temelju, svrsi i izvoru svega bića, svedena je na epistemološke komentare i analitičke definicije. Umjesto pitanja o zašto, ostalo je samo kako. Suvremeni racionalizam, koji se volio prikazivati kao oslobađanje od dogme, zapravo je uspostavio vlastitu dogmu: postoji samo ono što je eksperimentalno dokazivo.</p>
@@ -83,10 +83,9 @@
 
     <p>U modernom dobu, ontologija je – u ograničenom smislu – preživjela kao analitički instrument, dok je metafizika gotovo potpuno protjerana iz ozbiljnog filozofskog govora. No upravo ta dimenzija, odbačena kao neznanstvena, čuvala je ono najdublje u čovjekovoj misli: slutnju da bitak nije sam, nego da dolazi iz nečega – ili iz Nekoga.</p>
 
-    <p><a href="ovh-teme-stranica-1.html">← Povratak na Teme</a></p>
+    <p><a href="ovh-dematerijalizacija-stvarnog-1.html">← Povratak na 1. dio</a></p>
   </div>
-
-  <div class="footer">© 2025 BB Svijet</div>
 </body>
 </html>
+
 
