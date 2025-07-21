@@ -39,6 +39,15 @@
       text-align: center;
       padding: 0 20px;
       z-index: 2;
+      max-width: 90%;
+    }
+
+    .hero-overlay p {
+      font-size: 1.2rem;
+      font-weight: normal;
+      margin-top: 1rem;
+      line-height: 1.6;
+      text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7);
     }
 
     .bottom-text {
@@ -76,6 +85,10 @@
       font-size: 0.9rem;
       color: #ccc;
     }
+
+    .hidden-link {
+      display: none;
+    }
   </style>
 </head>
 <body>
@@ -90,16 +103,21 @@
   <section class="hero-section">
     <img src="assets/NV.png" alt="Neural Visions" class="hero-image" />
     <a href="neuronske-vizije.html" class="language-switch">HR</a>
+
     <div class="hero-overlay">
       <h1>Neural Visions</h1>
+      <p>Visions are not born in the eye, but in the fabric of thought that penetrates deeper than the visible.</p>
     </div>
+
+    <!-- Invisible link to next page -->
+    <a href="nv-themes.html" class="hidden-link">Neural Visions Themes</a>
+
     <div class="bottom-text">
-      <p>Coming soon...</p>
     </div>
   </section>
+
   <footer>
     © 2025 BB World
   </footer>
 </body>
 </html>
-
