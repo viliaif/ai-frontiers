@@ -42,6 +42,15 @@
             text-align: center;
             padding: 0 20px;
             z-index: 2;
+            max-width: 90%;
+        }
+
+        .hero-overlay p {
+            font-size: 1.2rem;
+            font-weight: normal;
+            margin-top: 1rem;
+            line-height: 1.6;
+            text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7);
         }
 
         .bottom-text {
@@ -79,6 +88,11 @@
             font-size: 0.9rem;
             color: #ccc;
         }
+
+        /* Nevidljivi link */
+        .hidden-link {
+            display: none;
+        }
     </style>
 </head>
 <body>
@@ -93,18 +107,21 @@
     <section class="hero-section">
         <img src="assets/NV.png" alt="Neuronske Vizije" class="hero-image" />
 
-        <!-- Language switch -->
+        <!-- Gumb za EN verziju -->
         <a href="neural-visions-en.html" class="language-switch">EN</a>
 
-        <!-- Central title -->
+        <!-- Naslov + misaoni uvod -->
         <div class="hero-overlay">
             <h1>Neuronske vizije</h1>
+            <p>Vizije ne nastaju u oku, nego u misaonom tkanju koje prodire dublje od vidljivog.</p>
         </div>
 
-        <!-- Bottom text -->
+        <!-- Donji tekst -->
         <div class="bottom-text">
-            <p>Uskoro sadržaj...</p>
         </div>
+
+        <!-- Nevidljiva poveznica za daljnje stranice -->
+        <a href="nv-teme.html" class="hidden-link">Teme Neuronskih Vizija</a>
     </section>
 
     <footer>
@@ -113,4 +130,3 @@
 
 </body>
 </html>
-
